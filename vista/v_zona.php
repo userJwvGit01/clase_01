@@ -10,6 +10,8 @@
   	Descripcion:<input type="text" name="des">
   	<br>
   	<input type="hidden" name="ope">
+
+  	
   	<input type="button" value="Incluir" onClick="envia(this.value)">
   </form>
  </body>
