@@ -5,8 +5,10 @@
  </head>
  <body>
   <form name="pantalla" method="POST" action="../control/c_zona.php">
-  	Codigo:     <input type="text" name="cod"><br>
-  	Descripcion:<input type="text" name="des"><br>
+  	Codigo:     <input type="text" name="cod">
+  	<br>
+  	Descripcion:<input type="text" name="des">
+  	<br>
   	<input type="hidden" name="ope">
   	<input type="button" value="Incluir" onClick="envia(this.value)">
   </form>
